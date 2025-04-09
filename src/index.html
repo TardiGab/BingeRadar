@@ -18,6 +18,21 @@
 
   <img src="assets/images/logo-heaj.png">
   <h1>Hello world</h1>
+  <form id="form" method="get">
+    <label for="search">Search</label>
+    <input type="text" id="searchField" name="search" required>
+    <button type="submit" id="searchButton">Submit</button>
+  </form>
+  <div id="resultsContainer">
+    <h2>Results</h2>
+    <p id="resultsCount"></p>
+    <ul id="resultsList" class="results"></ul>
+    <!-- <div class="nav-buttons">
+      <button id="prevButton">Previous</button>
+      <button id="nextButton">Next</button>
+    </div> -->
+  </div>
+  <div id="error"></div>
 
 </body>
 </html>
