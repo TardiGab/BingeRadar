@@ -1,25 +1,14 @@
-# Simple Workflow with Laravel Mix.
+# BingeRadar
 
-## Install
+## C'est quoi ?
 
-- `npm i`
+Un petit projet dans lequel j'utilise l'API de [TMDB](https://www.themoviedb.org/) afin d'afficher des films / séries.
 
-## Features
+## Features (certaines sont déjà implémentées, d'autres sont en cours de dev)
 
-- Copy `src/*.html` to `dist` folder.
-- Copy `src/assets/*/` to `dist/assets/*/` folder.
-- Compile SASS `src/styles/app.scss` to `dist/styles` folder.
-- Bundle and transpile JS `src/scripts/app.js` to `dist/scripts` folder.
-- Create sources maps.
-- Run a dev web server with browsersync.
-
-## Commands
-
-- `npx mix watch` : build on files changes, launch a dev server with browsersync.
-- `npm run build` : clean, lint and build the project.
-- `npm run clean` : clean the `dist` folder.
+- Recherche de contenu (V) 
+- Système de favoris (X)
 
 ## Warning
 
-Not intended to be used in production since minification as been disabled.  
-For school project purpose only.
+Ceci est encore un WIP, le projet n'est pas encore fini. Lorsqu'il sera terminé, l'url pour y accéder sera disponible ici :)
